@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"name": "evently",
+		"path": ".."
+	},
+	{
+		"name": "public",
+		"path": "../../public"
+	}
+],
+  "settings": {}
+}
