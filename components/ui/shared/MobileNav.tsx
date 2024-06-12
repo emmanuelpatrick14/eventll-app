@@ -13,11 +13,12 @@ import {
 import { Separator } from "@/components/ui/separator"
 
 
-import { SheetClose, SheetFooter } from "@/registry/new-york/ui/sheet";
+// import { SheetClose, SheetFooter } from "@/registry/new-york/ui/sheet";
 
-import { Button } from "@/registry/new-york/ui/button";
-import { Input } from "@/registry/new-york/ui/input";
-import { Label } from "@/registry/new-york/ui/label";
+// import { Button } from "@/registry/new-york/ui/button";
+// import { Input } from "@/registry/new-york/ui/input";
+// import { Label } from "@/registry/new-york/ui/label";
+
 import Image from "next/image";
 import NavItems from "./NavItems";
 
