@@ -1,15 +1,18 @@
+
 import React from 'react';
 import { SignUp } from "@clerk/nextjs";
 
-class SignInPage extends React.Component {
-  render() {
-    return (
-      <div>
-        <SignUp path="/sign-in" />
-        {/* ... component rendering logic */}
-      </div>
-    );
-  }
-}
 
-export default SignInPage;
+type Props = {};
+
+const page = (props: Props) => {
+  return (
+    <div className=" ">
+      console.log("signing up");
+      
+      <SignUp routing="hash" />
+    </div>
+  );
+};
+
+export default page;

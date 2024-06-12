@@ -1,22 +1,17 @@
-
 import { SignIn } from "@clerk/nextjs";
 
-// export default function Page() {
-//   // return <SignIn />;
-//   return (
-//     <> <h1>show up ople
-//       </h1> </>
-//   )
-// }
 
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 const page = (props: Props) => {
   return (
-    <div><SignIn /></div>
-  )
-}
+    <div className=" ">
+      {/* <SignIn /> */}
+      <SignIn routing="hash" />
+    </div>
+  );
+};
 
-export default page
+export default page;
